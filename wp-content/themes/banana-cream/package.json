@@ -1,0 +1,25 @@
+{
+  "name": "banana-cream",
+  "version": "4.2.5",
+  "description": "``` npm install -g grunt-cli npm install grunt --save-dev ```",
+  "repository" : {
+    "type" : "git",
+    "url" : "git@bitbucket.org:24dotcom/banana-cream.git"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-bundles": "^0.2.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-exec": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "24.com",
+  "license": "ISC"
+}

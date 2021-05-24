@@ -1,0 +1,24 @@
+{
+    "name": "24dotcom/banana-cream",
+    "version": "4.2.5",
+    "description": "Competition theme for UGC Campaigns",
+    "type": "wordpress-theme",
+    "homepage": "https://bitbucket.org/24dotcom/banana-cream/overview",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "24.Com Open Source Dev Team",
+            "email": "24.COMOpenSourceDevTeam@ds.naspers.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "composer/installers": "~1.0",
+        "htmlburger/carbon-fields": "1.5"
+    },
+    "extra": {
+        "installer-paths": {
+            "../../mu-plugins/{$name}/": ["htmlburger/carbon-fields"]
+        }
+    }
+}

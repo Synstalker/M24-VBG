@@ -1,0 +1,36 @@
+.brand_color{
+
+  &.primary{
+    text-color:$brand-primary-color;
+  }
+
+  &.secondary{
+    text-color:$brand-secondary-color;
+  }
+
+}
+
+
+.brand_border{
+
+  &.primary{
+    border-color:$brand-primary-color;
+  }
+
+  &.secondary{
+    border-color:$brand-secondary-color;
+  }
+
+}
+
+.brand_background{
+
+  &.primary{
+    background-color:$brand-primary-color;
+  }
+
+  &.secondary{
+    background-color:$brand-secondary-color;
+  }
+
+}

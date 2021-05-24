@@ -1,0 +1,11 @@
+				@font-face {
+					font-family: 'zooja';
+					src: url('/wp-content/uploads/useanyfont/2619Zooja.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2619Zooja.woff') format('woff');
+				}
+
+				.zooja{font-family: 'zooja' !important;}
+
+				.et_gf_zooja{background:none !important;font-family:zooja;text-indent:0 !important;font-size:25px;}
+
+		

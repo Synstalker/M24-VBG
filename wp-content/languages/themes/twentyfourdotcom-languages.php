@@ -1,0 +1,97 @@
+<?php
+$months = array(
+	__('January'),
+	__('February'),
+	__('Feb'),
+	__('March'),
+	__('Mar'),
+	__('April'),
+	__('Apr'),
+	__('May'),
+	__('June'),
+	__('Jun'),
+	__('July'),
+	__('Jul'),
+	__('Jul'),
+	__('August'),
+	__('Aug'),
+	__('September'),
+	__('Sept'),
+	__('October'),
+	__('Oct'),
+	__('November'),
+	__('Nov'),
+	__('Nov'),
+	__('December'),
+	__('Dec'),
+	__('Des')
+);
+
+$general = array(
+	__('home'),
+	__('Home'),
+	__('HOME'),
+	__('Contact us'),
+	__('Oops'),
+	__('Unfortunately the page you requested cannot be found'),
+	__('next'),
+	__('Next'),
+	__('NEXT'),
+	__('previous'),
+	__('Previous'),
+	__('PREVIOUS'),
+	__('search'),
+	__('Search'),
+	__('SEARCH'),
+);
+
+
+$competitions = array(
+	__('Enter here'),
+	__('Enter now'),
+	__('ENTER NOW'),
+	__('entries'),
+	__('entry'),
+	__('Entry'),
+	__('Entries'),
+	__('ENTRIES'),
+	__('entries'),
+	__('Add Entry'),
+	__('Edit Entry'),
+	__('New Entry'),
+	__('View Entry'),
+	__('Search Entries'),
+	__('No Entries found'),
+	__('No Entries found in Trash'),
+	__('How it works'),
+	__('Winners'),
+	__('Unfortunately this prize is not available at this time'),
+	__('finalists'),
+	__('Finalists'),
+	__('Name'),
+	__('NAME'),
+	__('name'),
+	__('Surname'),
+	__('SURNAME'),
+	__('surname'),
+	__('Age'),
+	__('AGE'),
+	__('age'),
+	__('Where Are You From'),
+	__('Where are you from'),
+	__('WHERE ARE YOU FROM'),
+	__('where are you from'),
+	__('Please upload a portrait image of at least 480 x 640 in dimension and no large than 2MB in size.'),
+	__('Vote'),
+	__('VOTE'),
+	__('vote'),
+);
+
+$forms = [
+	__('There was a problem with your submission. Errors have been highlighted below.'),
+];
+
+$search = array(
+	__('Search Results for'),
+	__('Sorry, but nothing matched your search terms. Please try again with some different keywords.')
+);

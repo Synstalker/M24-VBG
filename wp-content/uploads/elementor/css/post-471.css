@@ -1,0 +1,22 @@
+.elementor-471 .elementor-element.elementor-global-770 .elementor-heading-title{color:#000000;font-family:"Gotham", Sans-serif;font-weight:400;}.elementor-471 .elementor-element.elementor-global-770 > .elementor-widget-container{padding:0px 0px 20px 0px;}.elementor-471 .elementor-element.elementor-element-6ac8048 .elementor-search-form__container{min-height:50px;}.elementor-471 .elementor-element.elementor-element-6ac8048 .elementor-search-form__submit{min-width:50px;color:#FFFFFF;background-color:#D0796F;}body:not(.rtl) .elementor-471 .elementor-element.elementor-element-6ac8048 .elementor-search-form__icon{padding-left:calc(50px / 3);}body.rtl .elementor-471 .elementor-element.elementor-element-6ac8048 .elementor-search-form__icon{padding-right:calc(50px / 3);}.elementor-471 .elementor-element.elementor-element-6ac8048 .elementor-search-form__input, .elementor-471 .elementor-element.elementor-element-6ac8048.elementor-search-form--button-type-text .elementor-search-form__submit{padding-left:calc(50px / 3);padding-right:calc(50px / 3);}.elementor-471 .elementor-element.elementor-element-6ac8048:not(.elementor-search-form--skin-full_screen) .elementor-search-form--focus .elementor-search-form__input,
+					.elementor-471 .elementor-element.elementor-element-6ac8048 .elementor-search-form--focus .elementor-search-form__icon,
+					.elementor-471 .elementor-element.elementor-element-6ac8048 .elementor-lightbox .dialog-lightbox-close-button:hover,
+					.elementor-471 .elementor-element.elementor-element-6ac8048.elementor-search-form--skin-full_screen input[type="search"].elementor-search-form__input:focus{color:#D0796F;}.elementor-471 .elementor-element.elementor-element-6ac8048:not(.elementor-search-form--skin-full_screen) .elementor-search-form--focus .elementor-search-form__container{border-color:#D0796F;}.elementor-471 .elementor-element.elementor-element-6ac8048.elementor-search-form--skin-full_screen input[type="search"].elementor-search-form__input:focus{border-color:#D0796F;}.elementor-471 .elementor-element.elementor-element-6ac8048:not(.elementor-search-form--skin-full_screen) .elementor-search-form__container{border-radius:0px;}.elementor-471 .elementor-element.elementor-element-6ac8048.elementor-search-form--skin-full_screen input[type="search"].elementor-search-form__input{border-radius:0px;}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.eot');
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+		url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.eot');
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+		url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.woff') format('woff');
+}
+/* End Custom Fonts CSS */

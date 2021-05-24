@@ -1,0 +1,22 @@
+.elementor-79 .elementor-element.elementor-global-480 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-79 .elementor-element.elementor-element-ee83bc7 .elementor-heading-title{color:#000000;font-family:"Gotham", Sans-serif;font-size:2em;font-weight:400;}.elementor-79 .elementor-element.elementor-element-996eac1 .elementor-alert{background-color:#FEF3F1;border-color:var( --e-global-color-6d315d7 );}.elementor-79 .elementor-element.elementor-element-996eac1 .elementor-alert-title{color:var( --e-global-color-6d315d7 );font-family:"Open Sans", Sans-serif;font-size:30px;font-weight:600;}.elementor-79 .elementor-element.elementor-element-996eac1 .elementor-alert-description{color:var( --e-global-color-6d315d7 );font-family:"Roboto", Sans-serif;font-size:17px;font-weight:400;}.elementor-79 .elementor-element.elementor-element-aada5ce{font-family:"Open Sans", Sans-serif;font-weight:400;}.elementor-79 .elementor-element.elementor-element-3244bad .elementor-spacer-inner{height:30px;}.elementor-79 .elementor-element.elementor-global-9769 .elementor-heading-title{color:var( --e-global-color-6d315d7 );font-family:"Gotham", Sans-serif;font-size:2em;font-weight:400;}.elementor-79 .elementor-element.elementor-global-9769 > .elementor-widget-container{padding:10px 0px 27px 20px;background-color:var( --e-global-color-e70b876 );border-style:solid;border-width:2px 0px 0px 0px;border-color:var( --e-global-color-6d315d7 );border-radius:0px 0px 0px 0px;}.elementor-79 .elementor-element.elementor-global-9769.ha-has-bg-overlay > .elementor-widget-container:before{transition:background 0.3s;}.elementor-79 .elementor-element.elementor-element-83371e6 .gform_body .gfield .gfield_label, .elementor-79 .elementor-element.elementor-element-83371e6 table.gfield_list thead th{font-family:"Lato", Sans-serif;font-weight:700;}.elementor-79 .elementor-element.elementor-element-83371e6 .gform_wrapper .gform_footer{text-align:left;}.elementor-79 .elementor-element.elementor-element-83371e6 .gfield_list .gfield_list_icons img{width:16px !important;}.elementor-79 .elementor-element.elementor-element-83371e6 > .elementor-widget-container{margin:-50px 0px 0px 0px;padding:0px 10px 10px 10px;background-color:var( --e-global-color-e70b876 );}.elementor-79 .elementor-element.elementor-element-83371e6.ha-has-bg-overlay > .elementor-widget-container:before{transition:background 0.3s;}/* Start custom CSS for global, class: .elementor-global-480 */.totalcontest-body
+ {padding:0;}/* End custom CSS */
+/* Start custom CSS for ha-gravityforms, class: .elementor-element-83371e6 */.hidden_label{display:none; visibility: collapse;/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.eot');
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+		url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.eot');
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+		url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.woff') format('woff');
+}
+/* End Custom Fonts CSS */

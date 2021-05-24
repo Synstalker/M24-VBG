@@ -1,0 +1,22 @@
+{
+  "name": "banana-cream",
+  "description": "``` npm install -g grunt-cli npm install grunt --save-dev ```",
+  "main": "index.js",
+  "authors": [
+    "NexPress"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "uikit": "2.27.2",
+    "font-awesome": "^4.7.0",
+    "bourbon": "^4.2.7"
+  }
+}

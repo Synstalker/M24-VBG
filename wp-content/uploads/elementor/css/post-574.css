@@ -1,0 +1,30 @@
+.elementor-574 .elementor-element.elementor-global-480 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-574 .elementor-element.elementor-element-ee83bc7 .elementor-heading-title{color:#000000;font-family:"Carrois Gothic", Sans-serif;letter-spacing:2px;}.elementor-574 .elementor-element.elementor-element-9ca3261 .elementor-heading-title{color:var( --e-global-color-6d315d7 );font-family:"Gotham", Sans-serif;font-size:2em;font-weight:400;}.elementor-574 .elementor-element.elementor-element-9ca3261 > .elementor-widget-container{padding:10px 0px 27px 20px;background-color:var( --e-global-color-e70b876 );border-style:solid;border-width:2px 0px 0px 0px;border-color:var( --e-global-color-6d315d7 );border-radius:0px 0px 0px 0px;}.elementor-574 .elementor-element.elementor-element-9ca3261.ha-has-bg-overlay > .elementor-widget-container:before{transition:background 0.3s;}.elementor-574 .elementor-element.elementor-element-4c352da > .elementor-widget-container{margin:-50px 0px 0px 0px;padding:10px 10px 10px 10px;background-color:var( --e-global-color-e70b876 );}.elementor-574 .elementor-element.elementor-element-4c352da.ha-has-bg-overlay > .elementor-widget-container:before{transition:background 0.3s;}.elementor-574 .elementor-element.elementor-element-2f94daa .elementor-heading-title{color:#000000;font-family:"Carrois Gothic", Sans-serif;font-weight:900;letter-spacing:1px;}/* Start custom CSS for global, class: .elementor-global-480 */.totalcontest-body
+ {padding:0;}/* End custom CSS */
+/* Start custom CSS for shortcode, class: .elementor-element-4c352da */.totalcontest-form-field-label {
+    display: inline !important;
+
+    padding-right: 10px !important;
+    padding-bottom: 0.5em;
+    padding-left: 0;
+    color: inherit;
+}
+.wp-image-827 {display:none !impiortant;}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.eot');
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+		url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.eot');
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+		url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.woff') format('woff');
+}
+/* End Custom Fonts CSS */

@@ -1,0 +1,237 @@
+/*
+Theme Name: Banana Cream Theme
+Theme URI: https://bitbucket/24dotcom/banana-cream-theme/overview
+Author: 24.com
+Author URI: http://24.com
+Description: Competition Theme
+Version: 4.2.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, single-column, responsive, competition, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, translation-ready, custom-fields
+Text Domain: twentyfourdotcom
+Domain Path: /languages
+Since: 4.7.0
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+//@import "../../bower_components/Facade/mixin";
+//@import "../../bower_components/Facade/base";
+
+@import "../../bower_components/uikit/scss/uikit-variables.scss";
+@import "_variables"; //overrides uikit-variables
+
+
+/**
+* Mixins
+*/
+//@import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../../bower_components/uikit/scss/uikit-mixins.scss";
+@import "mixins"; // overrides uikit-mixins
+
+@import "brand";
+
+@import "../../bower_components/uikit/scss/uikit.scss";
+@import "../../bower_components/uikit/scss/components/form-advanced.scss"; //used for the checkbox on the entry form
+@import "../../bower_components/uikit/scss/components/slideshow.scss"; //used for galleries on the individual entrant
+@import "../../bower_components/uikit/scss/components/slidenav.scss"; //used for galleries on the individual entrant
+@import "../../bower_components/uikit/scss/components/placeholder.scss"; //used for fileuploads on gravity forms
+@import "../../bower_components/uikit/scss/components/progress.scss"; //used for fileuploads on gravity forms
+@import "../../bower_components/uikit/scss/components/notify.scss"; //used for fileuploads on gravity forms
+@import "../../bower_components/uikit/scss/components/upload.scss"; //used for fileuploads on gravity forms
+@import "../../bower_components/uikit/scss/core/animation.scss"; //used for fileuploads on gravity forms
+
+@import 'alignment';
+@import 'masonry';
+@import 'tinymce';
+@import 'menus';
+@import 'home';
+@import 'rating';
+
+/* <jared.rethman@24.com> - start */
+@import 'slideshow';
+/* <jared.rethman@24.com> - start */
+
+.tf-container-inner{
+  max-width:$tf-container-inner;
+}
+
+body.home{
+  #content{
+    hr {
+      counter-reset: section;
+    }
+
+    li{
+      list-style:none;
+      margin-bottom: 41px;
+      padding-left: 54px;
+      position: relative;
+    }
+
+    li:before {
+      counter-increment: section;
+      content: counter(section);
+      border:1px solid red;
+      width:34px;
+      height:34px;
+      text-align:center;
+      display:block;
+      @include border-radius(100%);
+      line-height:34px;
+      position: absolute;
+      left: 0;
+    }
+  }
+
+}
+
+#content{
+  p{
+    max-width: $tf-container-inner;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+#footer{
+  padding-top:$footer-padding-vertical;
+  padding-bottom:$footer-padding-vertical;
+}
+
+
+//see https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/
+.uk-overlay-panel{
+  display: -webkit-box;
+  /* display: -webkit-flex; */
+  display: flex;
+  /* -webkit-box-align: center; */
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  /* align-items: center; */
+  /* -webkit-box-pack: center; */
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  /* justify-content: center; */
+
+  span{
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    max-width: 50%;
+  }
+}
+
+.tf-vertical-align{
+  display: -webkit-box;
+  /* display: -webkit-flex; */
+  display: flex;
+  /* -webkit-box-align: center; */
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  /* align-items: center; */
+  /* -webkit-box-pack: center; */
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  /* justify-content: center; */
+
+  span{
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    max-width:100%;
+  }
+}
+
+.single{
+  .uk-slideshow{
+    max-height:$tf-post-gallery-max-height;
+
+  }
+}
+
+
+/**
+* Gravity form fixes
+**/
+.gform_ajax_spinner {
+  width: 28px;
+  margin-left: -35px;
+}
+
+.gfield_list_cell{
+  input{
+    width:100%;
+  }
+}
+
+input, textarea, select{
+  &.large{
+    width:100%;
+  }
+}
+
+.uk-form-row.gfield_html {
+  margin-top: 0;
+}
+
+.isNumberColumnTotal{
+  text-align:right;
+}
+
+
+td.gfield_list_cell{
+  position:relative;
+}
+
+
+
+tr.gfield_list_group td[data-label="Cost"]:before {
+  content: "R";
+  position: absolute;
+  font-weight: bold;
+  left: 10px;
+  top:9px;
+}
+
+.tf-gf-photo-upload{
+  input{
+    visibility:hidden;
+  }
+
+  label label{
+    display:none !important;
+  }
+
+  .uk-overlay{
+    .uk-overlay-panel{
+      background-position:center;
+      background-size:contain;
+      background-repeat:no-repeat;
+      background-color:white;
+    }
+  }
+
+  .ginput_preview {
+    display:none;
+  }
+}
+.tf-gf-tac .uk-form-label{
+  display: none;
+}
+
+.uk-alert:empty {
+  display: none;
+}
+
+.gfield_checkbox>li {
+  margin-top: $utility-margin;
+}
+
+iframe{
+  max-width:100%;
+}

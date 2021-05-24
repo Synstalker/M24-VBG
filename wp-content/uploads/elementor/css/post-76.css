@@ -1,0 +1,21 @@
+.elementor-76 .elementor-element.elementor-global-480 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-76 .elementor-element.elementor-element-f7bdf76{text-align:center;}.elementor-76 .elementor-element.elementor-element-f7bdf76 .elementor-heading-title{color:var( --e-global-color-5565f490 );font-family:"Gotham", Sans-serif;font-weight:400;}.elementor-76 .elementor-element.elementor-element-d2db6d0 .elementor-text-editor{text-align:center;}.elementor-76 .elementor-element.elementor-element-d2db6d0{font-family:"Roboto", Sans-serif;font-weight:400;}.elementor-76 .elementor-element.elementor-element-f4d7e9b .elementor-button{background-color:#D0796F;}.elementor-76 .elementor-element.elementor-element-2fdea33{text-align:center;}.elementor-76 .elementor-element.elementor-element-2fdea33 .elementor-heading-title{color:var( --e-global-color-6d315d7 );font-family:"Roboto", Sans-serif;font-weight:600;}/* Start custom CSS for global, class: .elementor-global-480 */.totalcontest-body
+ {padding:0;}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.eot');
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+		url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.eot');
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+		url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.woff') format('woff');
+}
+/* End Custom Fonts CSS */

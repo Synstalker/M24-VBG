@@ -1,0 +1,287 @@
+/**
+* NOTE:
+* All variables prefixed with 'tf' are custom variables
+* NOT FOUND in UI KIT
+**/
+
+/* Theme Variables */
+$tf-post-gallery-max-height: 420px;
+$tf-header-overlay-menu-item-height: 100px;
+$brand-primary-color: #d02027;
+$brand-primary-color-light: lighten($brand-primary-color,10%);
+$brand-secondary-color: #ffffff;
+
+$tf-container-inner:666px;
+$tf-base-body-background-light:#f7f7f7;
+$tf-nav-offcanvas-menu-item-border:1px solid #444;
+$base-body-background: #f2f2f2;
+$base-body-color: #333;
+$base-heading-color: #000000;
+
+$footer-padding-vertical:17px;
+
+/**
+* HR - Horizontal Rule
+**/
+$base-hr-border:#f2f2f2;
+
+
+/**
+* Headings
+**/
+$base-h2-font-size:25px;
+$base-h2-line-height:30px;
+$base-h3-font-size: 20px;
+$base-h3-line-height: 24px;
+$base-h4-font-size: 18px;
+$base-h4-line-height: 24px;
+$base-h5-font-size: 16px;
+$base-h5-line-height: 22px;
+$base-h6-font-size: 14px;
+$base-h6-line-height: 20px;
+
+
+
+/**
+* Grids and Gutters / Padding
+**/
+$grid-gutter-horizontal: 20px;
+
+
+/**
+* Margins
+* @see the Blocks styles below to do styles for sections/areas/ and padding styles
+**/
+$base-margin-vertical: 15px !default;
+$utility-margin: 20px;
+$utility-margin-small:10px;
+$utility-margin-large: 30px;
+
+
+$overlay-panel-background:rgba(255, 255, 255, 0.87);
+$pagination-padding-vertical:12px;
+$pagination-padding-horizontal:14px;
+
+
+
+/**
+* Links
+**/
+$base-link-color: $brand-primary-color;
+$base-link-hover-color: $base-link-color;
+$utility-link-muted-color:#acb4c2;
+
+
+/**
+* Comments
+* @see _mixins.scss for additional hooks relating to comments
+**/
+//$comment-header-border-color: #E5E5E5;
+//$comment-header-border-width: 1px;
+//$comment-header-border-style: solid;
+//$comment-header-border: $comment-header-border-width $comment-header-border-style $comment-header-border-color;
+$comment-padding:15px;
+$comment-background:white;
+$comment-header-margin-bottom: 0;
+$comment-avatar-border-radius:100%;
+$comment-avatar-box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.08);
+$comment-avatar-margin-right: 0;
+$comment-avatar-background-position: center;
+$comment-avatar-background-size: contain;
+$comment-avatar-width:40px;
+$comment-avatar-height:40px;
+$comment-meta-font-size: 14px;
+$comment-meta-margin-top: 0;
+$comment-meta-color: $utility-link-muted-color;
+
+
+/**
+* Forms
+**/
+$form-gutter:$utility-margin-large;
+$form_control_height:36px;
+$form-height: $form_control_height;
+$form-stacked-margin-bottom:$utility-margin-small;
+$form-border:$base-body-background;
+$form-focus-border:$base-link-color;
+$form-focus-background:$form-background;
+$form-placeholder-color:$utility-link-muted-color;
+$form-advanced-size:25px;
+$form-advanced-border-width:1px;
+$form-advanced-border:#cccabe;
+$form-advanced-checked-color:$brand-primary-color;
+$form-advanced-checkbox-font-size:18px;
+
+
+/* Breakpoints */
+$breakpoint-small:                               320px;
+$breakpoint-medium:                              720px;
+$breakpoint-large:                               980px;
+$breakpoint-xlarge:                              1220px;
+$breakpoint-mini-max:                            ($breakpoint-small - 1);
+$breakpoint-small-max:                           ($breakpoint-medium - 1);
+$breakpoint-medium-max:                          ($breakpoint-large - 1);
+$breakpoint-large-max:                           ($breakpoint-xlarge - 1);
+
+
+/* Related Variables */
+$tab-border:$base-body-background;
+$overlay-panel-color:$base-heading-color;
+$contrast-base-hr-border:$base-heading-color; //Used an alternate hr color
+
+
+/**
+* Panels
+**/
+$panel-box-background: white;
+
+
+/**
+* Buttons
+**/
+$button-link-color:#fff;
+$button-line-height: $form_control_height;
+$button-primary-color:$button-link-color !important;
+$button-primary-background: $brand-primary-color;
+$button-primary-hover-background: $brand-primary-color-light;
+$button-primary-active-background:$button-primary-background;
+
+
+/*
+  Pagination
+  @see uikit/scss/core/pagination.scss
+*/
+$pagination-background:none;
+$pagination-hover-background:none;
+$pagination-hover-color:$base-link-color;
+$pagination-active-color:$button-link-color;
+$pagination-active-background:$brand-primary-color;
+$pagination-onclick-background:$pagination-active-background;
+$pagination-onclick-color:$pagination-active-color;
+
+
+/**
+*  Article
+**/
+$article-divider-border:$base-body-background;
+$article-title-font-size:$base-h2-font-size;
+$article-title-line-height:$base-h2-line-height;
+$article-title-font-weight:bold;
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700');
+$base-body-font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$base-heading-font-family:  $base-body-font-family;
+$base-heading-font-weight: 700;
+
+
+
+/* UIKIT Variables*/
+$utility-container-large-max-width:980px;
+$utility-height-viewport-min-height:$utility-container-large-max-width;
+
+
+/**
+* Thumbnails
+**/
+$thumbnail-border-width: 0;
+
+
+/**
+* Fonts
+**/
+$base-body-font-size:16px;
+
+
+
+/**
+* Navbar / Menus
+**/
+$navbar-nav-font-size: 16px ;
+$navbar-nav-padding-horizontal: $grid-gutter-horizontal;
+$navbar-nav-line-height: 48px;
+$navbar-nav-height: 3em;
+$navbar-background: $brand-secondary-color;
+$navbar-nav-color: $base-heading-color;
+$navbar-nav-font-family:$base-body-font-family;
+$navbar-nav-onclick-background: darken($brand-primary-color,15%);
+$navbar-nav-onclick-background: lighten($brand-secondary-color,10%);
+$navbar-nav-onclick-color: $base-link-color;
+$nav-header-margin-top: 0px;
+$offcanvas-bar-background: #282828;
+$nav-offcanvas-color: white;
+$offcanvas-background:rgba(0, 0, 0, 0.8);
+$nav-offcanvas-active-background: $brand-primary-color;
+$nav-offcanvas-padding-horizontal: $grid-gutter-horizontal;
+$navbar-toggle-color: white;
+$navbar-toggle-hover-color: $brand-primary-color;
+
+/**
+* Colours
+* @link http://paletton.com/#uid=1000u0k00tS00++00J+01o50jiy
+**/
+$navbar-nav-hover-background:transparent;
+$navbar-nav-hover-color: $brand-primary-color;
+$navbar-nav-active-background: $brand-primary-color;
+$navbar-nav-active-color: white;
+
+
+
+/**
+* Blocks
+**/
+$block-padding-vertical:20px;
+$block-padding-vertical-large:40px;
+$block-primary-background:$brand-primary-color;
+$block-muted-background:$tf-base-body-background-light;
+
+
+
+/* UIKIT Icons */
+$icon-font-path: "css/fonts/font-awesome";
+//$icon-font-path: "fonts/";
+//$icon-font-path: null;
+
+/**
+* Border
+**/
+$utility-border-rounded: 4px;
+
+
+/**
+* Placeholders
+**/
+$tf-placeholder-border-style: solid;
+$tf-placeholder-font-size: $base-h5-font-size;
+$tf-placeholder-min-height:250px;
+$placeholder-background: white;
+$placeholder-border: $base-body-background;
+$placeholder-color: #9f9f9f;
+
+
+/**
+* Progress Bars
+**/
+$progress-bar-background: $brand-primary-color;
+
+
+/**
+* Alert Messages
+**/
+$alert-background:white;
+$alert-color: black;
+$tf-alert-border-color:$base-body-background;
+$tf-alert-border-left-color:#4B84c7;
+$tf-alert-border-left-width:4px;
+
+$alert-danger-background:$alert-background;
+$alert-danger-color:$alert-color;
+$tf-alert-danger-border-left-color:#f04423;
+
+$alert-warning-background:$alert-background;
+$alert-warning-color:$alert-color;
+$tf-alert-warning-border-left-color:#f09916;
+
+$alert-success-background:$alert-background;
+$alert-success-color:$alert-color;
+$tf-alert-success-border-left-color:#58bc5c;

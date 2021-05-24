@@ -1,0 +1,9 @@
+html:not([class]):not([prefix]) {
+  background-color: #fff;
+}
+
+body#tinymce {
+  margin: $utility-margin;
+  font: $base-body-font-weight $base-body-font-size unquote("/") $base-body-line-height $base-body-font-family;
+}
+

@@ -1,0 +1,21 @@
+.elementor-9513 .elementor-element.elementor-global-480 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-9513 .elementor-element.elementor-element-a2a2dda{text-align:center;}.elementor-9513 .elementor-element.elementor-element-a2a2dda .elementor-heading-title{color:#000;font-family:"Gotham", Sans-serif;font-size:2em;font-weight:400;}.elementor-9513 .elementor-element.elementor-element-ede0519 .elementor-text-editor{text-align:center;}.elementor-9513 .elementor-element.elementor-element-ede0519{font-family:"Gotham", Sans-serif;font-weight:400;}.elementor-9513 .elementor-element.elementor-element-e93fbdf .elementor-button{font-family:"Gotham", Sans-serif;font-weight:500;fill:var( --e-global-color-1d2ec928 );color:var( --e-global-color-1d2ec928 );background-color:#D0796F;}.elementor-9513 .elementor-element.elementor-element-e1569c2 .elementor-button{font-family:"Gotham", Sans-serif;font-weight:500;background-color:#D0796F;}.elementor-9513 .elementor-element.elementor-element-8c228ba .elementor-spacer-inner{height:10px;}/* Start custom CSS for global, class: .elementor-global-480 */.totalcontest-body
+ {padding:0;}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.eot');
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+		url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.eot');
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+		url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.woff') format('woff');
+}
+/* End Custom Fonts CSS */

@@ -1,0 +1,343 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TwentyFourDotCom - Afrikaans\n"
+"POT-Creation-Date: 2017-03-29 10:18+0200\n"
+"PO-Revision-Date: 2017-03-29 10:19+0200\n"
+"Last-Translator: 24.com Open Source\n"
+"Language-Team: TwentyFourDotCom <24.COMOpenSourceDevTeam@ds.naspers.com>\n"
+"Language: af_ZA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+# Months
+#: languages.php:3 themes/twentyfourdotcom-languages.php:3
+msgid "January"
+msgstr "Januarie"
+
+#: languages.php:4 themes/twentyfourdotcom-languages.php:4
+msgid "February"
+msgstr "Februarie"
+
+#: languages.php:5 themes/twentyfourdotcom-languages.php:5
+msgid "Feb"
+msgstr "Feb"
+
+#: languages.php:6 themes/twentyfourdotcom-languages.php:6
+msgid "March"
+msgstr "Maart"
+
+#: languages.php:7 themes/twentyfourdotcom-languages.php:7
+msgid "Mar"
+msgstr "Mrt"
+
+#: languages.php:8 themes/twentyfourdotcom-languages.php:8
+msgid "April"
+msgstr "April"
+
+#: languages.php:9 themes/twentyfourdotcom-languages.php:9
+msgid "Apr"
+msgstr "Apr"
+
+#: languages.php:10 themes/twentyfourdotcom-languages.php:10
+msgid "May"
+msgstr "Mei"
+
+#: languages.php:11 themes/twentyfourdotcom-languages.php:11
+msgid "June"
+msgstr "Junie"
+
+#: languages.php:12 themes/twentyfourdotcom-languages.php:12
+msgid "Jun"
+msgstr "Jun"
+
+#: languages.php:13 themes/twentyfourdotcom-languages.php:13
+msgid "July"
+msgstr "Julie"
+
+#: languages.php:14 languages.php:15 themes/twentyfourdotcom-languages.php:14
+#: themes/twentyfourdotcom-languages.php:15
+msgid "Jul"
+msgstr "Jul"
+
+#: languages.php:16 themes/twentyfourdotcom-languages.php:16
+msgid "August"
+msgstr "Augustus"
+
+#: languages.php:17 themes/twentyfourdotcom-languages.php:17
+msgid "Aug"
+msgstr "Aug"
+
+#: languages.php:18 themes/twentyfourdotcom-languages.php:18
+msgid "September"
+msgstr "September"
+
+#: languages.php:19 themes/twentyfourdotcom-languages.php:19
+msgid "Sept"
+msgstr "Sept"
+
+#: languages.php:20 themes/twentyfourdotcom-languages.php:20
+msgid "October"
+msgstr "Oktober"
+
+#: languages.php:21 themes/twentyfourdotcom-languages.php:21
+msgid "Oct"
+msgstr "Okt"
+
+#: languages.php:22 themes/twentyfourdotcom-languages.php:22
+msgid "November"
+msgstr "Novembers"
+
+#: languages.php:23 languages.php:24 themes/twentyfourdotcom-languages.php:23
+#: themes/twentyfourdotcom-languages.php:24
+msgid "Nov"
+msgstr "Nov"
+
+#: languages.php:25 themes/twentyfourdotcom-languages.php:25
+msgid "December"
+msgstr "Desember"
+
+#: languages.php:26 themes/twentyfourdotcom-languages.php:26
+msgid "Dec"
+msgstr "Des"
+
+#: languages.php:27 themes/twentyfourdotcom-languages.php:27
+msgid "Des"
+msgstr ""
+
+#: languages.php:31 themes/twentyfourdotcom-languages.php:31
+msgid "home"
+msgstr "tuis"
+
+# General
+#: languages.php:32 themes/twentyfourdotcom-languages.php:32
+msgid "Home"
+msgstr "Tuis"
+
+#: languages.php:33 themes/twentyfourdotcom-languages.php:33
+msgid "HOME"
+msgstr "TUIS"
+
+#: languages.php:34 themes/twentyfourdotcom-languages.php:34
+msgid "Contact us"
+msgstr "Kontak ons"
+
+#: languages.php:35 themes/twentyfourdotcom-languages.php:35
+msgid "Oops"
+msgstr "Oeps"
+
+#: languages.php:36 themes/twentyfourdotcom-languages.php:36
+msgid "Unfortunately the page you requested cannot be found"
+msgstr "Hierdie webskakel bestaan nie"
+
+#: languages.php:37 themes/twentyfourdotcom-languages.php:37
+msgid "next"
+msgstr "volgende"
+
+#: languages.php:38 themes/twentyfourdotcom-languages.php:38
+msgid "Next"
+msgstr "Volgende"
+
+#: languages.php:39 themes/twentyfourdotcom-languages.php:39
+msgid "NEXT"
+msgstr "VOLGENDE"
+
+#: languages.php:40 themes/twentyfourdotcom-languages.php:40
+msgid "previous"
+msgstr "vorige"
+
+#: languages.php:41 themes/twentyfourdotcom-languages.php:41
+msgid "Previous"
+msgstr "Vorige"
+
+#: languages.php:42 themes/twentyfourdotcom-languages.php:42
+msgid "PREVIOUS"
+msgstr "VORIGE"
+
+#: languages.php:43
+msgid "search"
+msgstr "soek"
+
+#: languages.php:44
+msgid "Search"
+msgstr "Soek"
+
+#: languages.php:45
+msgid "SEARCH"
+msgstr "SOEK"
+
+#: languages.php:50 themes/twentyfourdotcom-languages.php:47
+msgid "Enter here"
+msgstr "Skryf in"
+
+#: languages.php:51 themes/twentyfourdotcom-languages.php:48
+msgid "Enter now"
+msgstr "Skryf nou in"
+
+#: languages.php:52 themes/twentyfourdotcom-languages.php:49
+msgid "ENTER NOW"
+msgstr "SKRYF NOU IN"
+
+#: languages.php:53 languages.php:58 themes/twentyfourdotcom-languages.php:50
+#: themes/twentyfourdotcom-languages.php:55
+msgid "entries"
+msgstr "inskrywings"
+
+#: languages.php:54 themes/twentyfourdotcom-languages.php:51
+msgid "entry"
+msgstr "inskrywing"
+
+#: languages.php:55 themes/twentyfourdotcom-languages.php:52
+msgid "Entry"
+msgstr "Inskrywing"
+
+#: languages.php:56 themes/twentyfourdotcom-languages.php:53
+msgid "Entries"
+msgstr "Inskrywings"
+
+#: languages.php:57 themes/twentyfourdotcom-languages.php:54
+msgid "ENTRIES"
+msgstr "INSKRYWINGS"
+
+#: languages.php:59 themes/twentyfourdotcom-languages.php:56
+msgid "Add Entry"
+msgstr "Voeg inskrywing by"
+
+#: languages.php:60 themes/twentyfourdotcom-languages.php:57
+msgid "Edit Entry"
+msgstr "Wysig inskrywing"
+
+#: languages.php:61 themes/twentyfourdotcom-languages.php:58
+msgid "New Entry"
+msgstr "Nuwe inskrywing"
+
+#: languages.php:62 themes/twentyfourdotcom-languages.php:59
+msgid "View Entry"
+msgstr "Sien inskrywing"
+
+#: languages.php:63 themes/twentyfourdotcom-languages.php:60
+msgid "Search Entries"
+msgstr "Soek inskrywings"
+
+#: languages.php:64 themes/twentyfourdotcom-languages.php:61
+msgid "No Entries found"
+msgstr "Geen inskrywing is gevind nie."
+
+#: languages.php:65 themes/twentyfourdotcom-languages.php:62
+msgid "No Entries found in Trash"
+msgstr "Geen inskrywings is gevind nie."
+
+#: languages.php:66 themes/twentyfourdotcom-languages.php:63
+msgid "How it works"
+msgstr "Hoe dit werk"
+
+#: languages.php:67 themes/twentyfourdotcom-languages.php:64
+msgid "Winners"
+msgstr "Wenners"
+
+#: languages.php:68 themes/twentyfourdotcom-languages.php:65
+msgid "Unfortunately this prize is not available at this time"
+msgstr "Hierdie prys is nie nou beskikbaar nie"
+
+#: languages.php:69 themes/twentyfourdotcom-languages.php:66
+msgid "finalists"
+msgstr "finaliste"
+
+#: languages.php:70 themes/twentyfourdotcom-languages.php:67
+msgid "Finalists"
+msgstr "Finaliste"
+
+#: languages.php:71 themes/twentyfourdotcom-languages.php:68
+msgid "Name"
+msgstr "Naam"
+
+#: languages.php:72 themes/twentyfourdotcom-languages.php:69
+msgid "NAME"
+msgstr "NAAM"
+
+#: languages.php:73 themes/twentyfourdotcom-languages.php:70
+msgid "name"
+msgstr "naam"
+
+#: languages.php:74 themes/twentyfourdotcom-languages.php:71
+msgid "Surname"
+msgstr "Van"
+
+#: languages.php:75 themes/twentyfourdotcom-languages.php:72
+msgid "SURNAME"
+msgstr "VAN"
+
+#: languages.php:76 themes/twentyfourdotcom-languages.php:73
+msgid "surname"
+msgstr "van"
+
+#: languages.php:77 themes/twentyfourdotcom-languages.php:74
+msgid "Age"
+msgstr "Ouderdom"
+
+#: languages.php:78 themes/twentyfourdotcom-languages.php:75
+msgid "AGE"
+msgstr "OUDERDOM"
+
+#: languages.php:79 themes/twentyfourdotcom-languages.php:76
+msgid "age"
+msgstr "ouderdom"
+
+#: languages.php:80 themes/twentyfourdotcom-languages.php:77
+msgid "Where Are You From"
+msgstr "Plek"
+
+#: languages.php:81 themes/twentyfourdotcom-languages.php:78
+msgid "Where are you from"
+msgstr "Plek"
+
+#: languages.php:82 themes/twentyfourdotcom-languages.php:79
+msgid "WHERE ARE YOU FROM"
+msgstr "PLEK"
+
+#: languages.php:83 themes/twentyfourdotcom-languages.php:80
+msgid "where are you from"
+msgstr "plek"
+
+#: languages.php:84 themes/twentyfourdotcom-languages.php:81
+msgid ""
+"Please upload a portrait image of at least 480 x 640 in dimension and no "
+"large than 2MB in size."
+msgstr ""
+"Laai asseblief ’n portret-foto van ten minste 480 x 640 px en wat nie groter "
+"as 2 MB is nie."
+
+#: languages.php:85 themes/twentyfourdotcom-languages.php:82
+msgid "Vote"
+msgstr "Stem"
+
+#: languages.php:86 themes/twentyfourdotcom-languages.php:83
+msgid "VOTE"
+msgstr "STEM"
+
+#: languages.php:87 themes/twentyfourdotcom-languages.php:84
+msgid "vote"
+msgstr "stem"
+
+#: languages.php:91 themes/twentyfourdotcom-languages.php:88
+msgid ""
+"There was a problem with your submission. Errors have been highlighted below."
+msgstr ""
+"Daar was ’n probleem met jou inskrywing. Foute word hieronder uitgelig."
+
+#: languages.php:95 themes/twentyfourdotcom-languages.php:92
+msgid "Search Results for"
+msgstr "Soekresultate vir"
+
+#: languages.php:96 themes/twentyfourdotcom-languages.php:93
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Geen soekresultaat gevind"

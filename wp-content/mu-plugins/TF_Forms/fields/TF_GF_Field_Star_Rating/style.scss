@@ -1,0 +1,83 @@
+$star_rating_container_class: 'star_rating_container' !default;
+$star_rating_label_class:     'star_rating_label' !default;
+$star_rating_input_class:     'star_rating_input' !default;
+$star_rating_active_color:    orange !default;
+$star_rating_inactive_color:  #ffa500 !default;
+
+
+.#{$star_rating_container_class} {
+  position: relative;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  counter-reset: star-rating;
+  font-size: 0;
+  text-align:left;
+
+  &:hover{
+
+    .#{$star_rating_label_class}{
+
+      &::before {
+        content: '☆';
+      }
+
+      &:hover::before,
+      &:hover ~ .#{$star_rating_label_class}::before {
+        content: '★';
+      }
+    }
+
+  }
+
+  .#{$star_rating_label_class} {
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0 15px 0 0;
+    width: .9em;
+    direction: ltr;
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 40px;
+    white-space: nowrap;
+
+    &::before {
+      content: '☆';
+      vertical-align:text-bottom;
+      font-size: 40px;
+      line-height: 40px;
+    }
+
+    &:hover,
+    &:hover ~ .#{$star_rating_label_class},
+    .#{$star_rating_input_class}:checked ~ .#{$star_rating_label_class} {
+      color: $star_rating_active_color;
+    }
+  }
+
+  .#{$star_rating_input_class}{
+
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;
+    padding: 0;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+
+    &:checked ~ .#{$star_rating_label_class} {
+      counter-increment: star-rating;
+    }
+
+    &:checked ~ .#{$star_rating_label_class}::before {
+      content: '★';
+      color: $star_rating_active_color;
+    }
+
+    &:checked+.#{$star_rating_label_class}:before {
+      color: $star_rating_inactive_color;
+    }
+
+  }
+
+}

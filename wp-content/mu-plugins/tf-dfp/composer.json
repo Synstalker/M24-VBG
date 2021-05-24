@@ -1,0 +1,16 @@
+{
+    "name": "24dotcom/tf-dfp",
+    "description": "Competition theme for UGC Campaigns",
+    "homepage": "https://bitbucket.org/24dotcom/tf-dfp/overview",
+    "authors": [
+      {
+        "name": "24.Com Open Source Dev Team",
+        "email": "24.COMOpenSourceDevTeam@ds.naspers.com"
+      }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "type": "wordpress-muplugin"
+}

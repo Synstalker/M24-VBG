@@ -1,0 +1,89 @@
+.elementor-494 .elementor-element.elementor-global-480 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-494 .elementor-element.elementor-element-9e7682a .elementor-heading-title{color:#000000;font-family:"Gotham", Sans-serif;font-size:2em;font-weight:400;}.elementor-494 .elementor-element.elementor-element-9e7682a > .elementor-widget-container{margin:20px 20px 20px 20px;}.elementor-494 .elementor-element.elementor-element-76c7173 .eael-gravity-form .validation_message{display:block !important;}.elementor-494 .elementor-element.elementor-element-76c7173 .eael-gravity-form .validation_error{display:block !important;}.elementor-494 .elementor-element.elementor-element-76c7173 .eael-gravity-form .gfield.gsection{border-bottom-style:solid;border-bottom-width:1px;}.elementor-494 .elementor-element.elementor-element-76c7173 .eael-gravity-form .gform_wrapper .gf_scroll_text{width:100%;}.elementor-494 .elementor-element.elementor-element-76c7173 .eael-gravity-form .gform_footer input[type="submit"]{width:100px;}.elementor-494 .elementor-element.elementor-element-76c7173 .eael-gravity-form .gform_body .gform_page_footer input[type="submit"]{width:100px;}.elementor-494 .elementor-element.elementor-element-76c7173 .eael-gravity-form .gform_body .gform_page_footer input[type="button"]{width:100px;}.elementor-494 .elementor-element.elementor-element-76c7173 .eael-gravity-form .gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .elementor-494 .elementor-element.elementor-element-76c7173 .gform_wrapper li.gfield_error textarea{border-width:1px;}.elementor-494 .elementor-element.elementor-element-31f2a51 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-494 .elementor-element.elementor-element-6b04e6c{color:var( --e-global-color-6d315d7 );font-family:"Gotham", Sans-serif;font-size:1em;font-weight:600;line-height:0.1em;}.elementor-494 .elementor-element.elementor-global-770 .elementor-heading-title{color:#000000;font-family:"Gotham", Sans-serif;font-weight:400;}.elementor-494 .elementor-element.elementor-global-770 > .elementor-widget-container{padding:0px 0px 20px 0px;}.elementor-494 .elementor-element.elementor-element-9e39f7a .elementor-search-form__container{min-height:50px;}.elementor-494 .elementor-element.elementor-element-9e39f7a .elementor-search-form__submit{min-width:50px;}body:not(.rtl) .elementor-494 .elementor-element.elementor-element-9e39f7a .elementor-search-form__icon{padding-left:calc(50px / 3);}body.rtl .elementor-494 .elementor-element.elementor-element-9e39f7a .elementor-search-form__icon{padding-right:calc(50px / 3);}.elementor-494 .elementor-element.elementor-element-9e39f7a .elementor-search-form__input, .elementor-494 .elementor-element.elementor-element-9e39f7a.elementor-search-form--button-type-text .elementor-search-form__submit{padding-left:calc(50px / 3);padding-right:calc(50px / 3);}.elementor-494 .elementor-element.elementor-element-9e39f7a:not(.elementor-search-form--skin-full_screen) .elementor-search-form__container{border-radius:3px;}.elementor-494 .elementor-element.elementor-element-9e39f7a.elementor-search-form--skin-full_screen input[type="search"].elementor-search-form__input{border-radius:3px;}/* Start custom CSS for html, class: .elementor-element-bf3127c */.scripts{display:hidden;}/* End custom CSS */
+/* Start custom CSS for global, class: .elementor-global-480 */.totalcontest-body
+ {padding:0;}/* End custom CSS */
+/* Start custom CSS for eael-gravity-form, class: .elementor-element-76c7173 */#Gravity {display:none;}/* End custom CSS */
+/* Start custom CSS for shortcode, class: .elementor-element-31f2a51 */#gform_wrapper_12 {
+    display: block !important;
+}
+
+.totalcontest-share-service {
+    flex: 1;
+    padding: 1em !important;
+    opacity: 0.85;
+    line-height: 0;
+    text-align: center;
+    margin-top:1em !important;
+}
+.totalcontest-submission-stats-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.8em !important;
+}
+.totalcontest-submissions-row {
+    padding-top: 1em !important;
+}
+
+.totalcontest-submissions-toolbar{display:none;}
+.totalcontest-pagination-item {
+   
+    padding: 0.5em 0.4em 0.5em 0.4em !important;
+}
+.totalcontest-pagination{background:#fff;}
+.totalcontest-submission-content-block-type-title h3{
+    font-size: 2em !important;
+    border-style: solid !important;
+    border-width: 0px 0px 2px 0px !important;
+    border-color: #c58c7c !important;
+    margin-bottom: 20px !important;
+    margin-top: 0px!important;
+}
+.totalcontest-submission-content-block-type-image {
+    padding-top: calc(1rem/2);
+    display: inline-block;
+    width: 33%;
+    vertical-align: top !important;
+    padding-left: 2%;
+    border-radius:0;
+}
+.totalcontest-submissions-item-block-type-title
+{font-size:20px;}
+.totalcontest-form-vote{display:none!important;}
+.totalcontest-header
+{display:none;}
+.totalcontest-submission-stats
+{display:none!important;}
+.totalcontest-footer
+{display: none !important}
+
+#gform_fields_12 li{width:48%; display:inline-block;margin-right:2%!important;}
+
+.gfield_label {width:100%;}
+
+#input_3, #input_12_31{width:100% !important;}
+
+#gform_submit_button_12{    width: 100% !important;; 
+    padding: 10px !important;;
+    margin-top: 10px !important;;}
+    .gform_wrapper .top_label input.small, .gform_wrapper .top_label select.small {
+    width: 100% !important;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.eot');
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+		url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Book.woff') format('woff');
+}
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.eot');
+	src: url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+		url('https://voorbladgesig.sarie.com/wp-content/uploads/2021/03/Gotham-Bold.woff') format('woff');
+}
+/* End Custom Fonts CSS */

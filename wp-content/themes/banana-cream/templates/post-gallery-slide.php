@@ -1,0 +1,1 @@
+<li href="%s" data-uk-lightbox="{group:'%s'}">%s</li>

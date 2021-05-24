@@ -1,0 +1,19 @@
+{
+  "name": "NP_GF_Field_Star_Rating",
+  "version": "0.0.1",
+  "description": "Gravity Forms Star Rating Field Addon",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/nexpress/NP_GF_Field_Star_Rating.git"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NexPress",
+  "license": "ISC"
+}

@@ -1,0 +1,1 @@
+... <span class="uk-link uk-text-bold uk-text-uppercase uk-h5" data-uk-toggle="{target: '#the_excerpt, #the_content', animation:'uk-animation-fade'}"><?php _e( 'Read More', 'twentyfourdotcom' ); ?></span>

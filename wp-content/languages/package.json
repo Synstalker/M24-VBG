@@ -1,0 +1,23 @@
+{
+  "name": "tf-languages",
+  "version": "3.3.3",
+  "description": "24.com Languages Module for WordPress",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "languages",
+    "locale",
+    "afrikaans"
+  ],
+  "author": "24.com",
+  "license": "ISC"
+}

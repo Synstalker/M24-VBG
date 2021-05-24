@@ -1,0 +1,925 @@
+# Copyright (C) 2020 Lumber Themes
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotel Romantica 1.0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-28 16:25:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: comments.php:35
+#. translators: 1: title.
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:30
+msgid "Powered by WordPress"
+msgstr ""
+
+#: footer.php:30
+msgid "Theme: Hotel Romantica by %1$sLumber Themes%2$s"
+msgstr ""
+
+#: functions.php:36
+msgid "Primary"
+msgstr ""
+
+#: functions.php:37
+msgid "Social"
+msgstr ""
+
+#: functions.php:123
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:125
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:134 functions.php:144 functions.php:154 functions.php:164
+msgid "Footer %d"
+msgstr ""
+
+#: functions.php:198
+msgid "Open the main menu"
+msgstr ""
+
+#: functions.php:199
+msgid "Close the main menu"
+msgstr ""
+
+#: functions.php:200
+msgid "expand submenu"
+msgstr ""
+
+#: functions.php:201
+msgid "collapse submenu"
+msgstr ""
+
+#: header.php:21
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:58
+msgid "Menu"
+msgstr ""
+
+#: inc/admin-page.php:17 inc/admin-page.php:18
+msgid "Theme Info"
+msgstr ""
+
+#: inc/admin-page.php:40 lib/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/admin-page.php:49 inc/customizer/option.php:14
+msgid "Theme Options"
+msgstr ""
+
+#: inc/admin-page.php:50
+msgid ""
+"Theme uses Customizer API for theme options which will help you preview "
+"your changes live and fast."
+msgstr ""
+
+#: inc/admin-page.php:51
+msgid "Customize"
+msgstr ""
+
+#: inc/admin-page.php:55
+msgid "Plugins"
+msgstr ""
+
+#: inc/admin-page.php:56
+msgid ""
+"Theme is powered by Elementor page builder plugin and smoothly integrates "
+"Advanced Booking Calender."
+msgstr ""
+
+#: inc/admin-page.php:57 lib/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/admin-page.php:61
+msgid "Demo Content"
+msgstr ""
+
+#: inc/admin-page.php:62
+msgid ""
+"To import demo content, One Click Demo Import plugin should be installed "
+"and activated. Demo content files can be downloaded from our site."
+msgstr ""
+
+#: inc/admin-page.php:63
+msgid "Visit Page"
+msgstr ""
+
+#: inc/admin-page.php:67
+msgid "Help &amp; Support"
+msgstr ""
+
+#: inc/admin-page.php:68
+msgid ""
+"If you have any question/feedback regarding theme, please post in the "
+"support forum."
+msgstr ""
+
+#: inc/admin-page.php:69
+msgid "Get Support"
+msgstr ""
+
+#: inc/core.php:56
+msgid "Book Your Stay"
+msgstr ""
+
+#: inc/core.php:63
+msgid "Blog"
+msgstr ""
+
+#: inc/core.php:66
+msgid "Read More"
+msgstr ""
+
+#: inc/core.php:69
+msgid "Copyright &copy; All rights reserved."
+msgstr ""
+
+#: inc/customizer/option.php:23
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer/option.php:39
+msgid "Show Site Title"
+msgstr ""
+
+#: inc/customizer/option.php:56
+msgid "Show Site Tagline"
+msgstr ""
+
+#: inc/customizer/option.php:73
+msgid "Book Button Text"
+msgstr ""
+
+#: inc/customizer/option.php:90
+msgid "Book Button URL"
+msgstr ""
+
+#: inc/customizer/option.php:107
+msgid "Enable Top Bar"
+msgstr ""
+
+#: inc/customizer/option.php:124
+msgid "Contact Phone"
+msgstr ""
+
+#: inc/customizer/option.php:141
+msgid "Contact Email"
+msgstr ""
+
+#: inc/customizer/option.php:151
+msgid "Blog Options"
+msgstr ""
+
+#: inc/customizer/option.php:167
+msgid "Blog Title"
+msgstr ""
+
+#: inc/customizer/option.php:184
+msgid "Show Content"
+msgstr ""
+
+#: inc/customizer/option.php:188 inc/widgets/posts-grid.php:158
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/option.php:189
+msgid "Full"
+msgstr ""
+
+#: inc/customizer/option.php:205 inc/widgets/posts-grid.php:171
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/option.php:222
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer/option.php:232
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer/option.php:248
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/option.php:258
+msgid "Color Options"
+msgstr ""
+
+#: inc/customizer.php:56
+msgid "Hotel Romantica Pro"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/demo.php:89
+msgid "NOTE: "
+msgstr ""
+
+#: inc/demo.php:90
+msgid ""
+"Before importing, please make sure that Advanced Booking Calendar plugin is "
+"installed and activated. Rooms should be properly setup to display room "
+"sections in the front page."
+msgstr ""
+
+#: inc/et-custom.php:19
+msgid "Theme Custom"
+msgstr ""
+
+#: inc/plugins.php:18
+msgid "Advanced Booking Calendar"
+msgstr ""
+
+#: inc/plugins.php:22
+msgid "Elementor"
+msgstr ""
+
+#: inc/plugins.php:26
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/template-tags.php:59
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:79
+#. translators: %s: post title
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:96 template-parts/content-page.php:35
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/theme-functions.php:28
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/theme-functions.php:30
+msgid "404!"
+msgstr ""
+
+#: inc/theme-helpers.php:30 inc/theme-helpers.php:168
+#: lib/breadcrumb/breadcrumb.php:266
+msgid "Home"
+msgstr ""
+
+#: inc/theme-helpers.php:299
+msgid "Primary Color"
+msgstr ""
+
+#: inc/theme-helpers.php:302
+msgid "Primary Hover Color"
+msgstr ""
+
+#: inc/theme-helpers.php:305
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/widget.php:37
+msgid "Availability Form. Suitable for home page."
+msgstr ""
+
+#: inc/widget.php:39
+msgid "HR: Availability Form"
+msgstr ""
+
+#: inc/widget.php:53
+msgid "Availability"
+msgstr ""
+
+#: inc/widget.php:58
+msgid "Title:"
+msgstr ""
+
+#: inc/widget.php:62
+msgid ""
+"There is no booking page configured. Check the settings and select a page "
+"with the booking form."
+msgstr ""
+
+#: inc/widget.php:221
+msgid ""
+"There is no booking page configured. Check the settings of the Advanced "
+"Booking Calendar."
+msgstr ""
+
+#: inc/widgets/posts-grid.php:48
+msgid "Posts Grid"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:110 inc/widgets/rooms-grid.php:110
+msgid "Content"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:117
+msgid "Columns"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:139 inc/widgets/rooms-grid.php:117
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:160
+msgid "Show"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:161
+msgid "Hide"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:183
+msgid "Show Category"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:194
+msgid "Show Date"
+msgstr ""
+
+#: inc/widgets/posts-grid.php:204
+msgid "Enable Alternate Layout"
+msgstr ""
+
+#: inc/widgets/rooms-grid.php:48
+msgid "Rooms Grid"
+msgstr ""
+
+#: inc/widgets/rooms-grid.php:194
+msgid "Know More"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:264
+msgid "Browse:"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:267
+msgid "404 Not Found"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:268
+msgid "Archives"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:270
+#. Translators: %s is the search query.
+msgid "Search results for: %s"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:272
+#. Translators: %s is the page number.
+msgid "Page %s"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:274
+#. Translators: %s is the page number.
+msgid "Comment Page %s"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:276
+#. Translators: Minute archive title. %s is the minute time format.
+msgid "Minute %s"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:278
+#. Translators: Weekly archive title. %s is the week date format.
+msgid "Week %s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:330
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:332
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:370
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:386
+#: lib/tgm/class-tgm-plugin-activation.php:827
+#: lib/tgm/class-tgm-plugin-activation.php:2533
+#: lib/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:387
+#: lib/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:388
+#: lib/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:390
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:392
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:394
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:934
+#: lib/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:1982
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2392
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2396
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2400
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2603
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2608
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2614
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3498
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3501
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3503
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3509
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3509
+#: lib/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3509
+#: lib/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3512
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3517
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3520
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:24
+#. translators: 1: link to WP admin new post page.
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:21 template-parts/content-single.php:33
+#: template-parts/content.php:57
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:44
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Hotel Romantica"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://lumberthemes.com/themes/hotel-romantica/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Hotel Romantica is a clean and attractive WordPress theme. If you are "
+"trying to setup website for your hotels and resorts focused on romantic "
+"gateways then this theme will be suitable for the purpose. It is powered by "
+"Elementor page builder plugin and also integrated booking plugin named "
+"Advanced Booking Calendar. Hotel Romantica requires no prior coding "
+"knowledge and you can easily setup your site. It is responsive and cross "
+"browser compatible."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Lumber Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://lumberthemes.com/"
+msgstr ""
+
+#: comments.php:41
+#. translators: 1: comment count number, 2: title.
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-tags.php:66
+#. translators: used between list items, there is a space after the comma
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/theme-helpers.php:121
+#. translators: If there are characters in your language that are not supported
+#. by Tangerine, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Tangerine font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/theme-helpers.php:126
+#. translators: If there are characters in your language that are not supported
+#. by Lato, translate this to 'off'. Do not translate into your own language.
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:738
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:755
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:772
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:788 lib/breadcrumb/breadcrumb.php:817
+#: lib/breadcrumb/breadcrumb.php:844 lib/breadcrumb/breadcrumb.php:871
+#: lib/breadcrumb/breadcrumb.php:1211
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:789 lib/breadcrumb/breadcrumb.php:845
+#: lib/breadcrumb/breadcrumb.php:1215
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:790 lib/breadcrumb/breadcrumb.php:1219
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: lib/breadcrumb/breadcrumb.php:818
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:1121
+#: lib/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2342
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2388
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""

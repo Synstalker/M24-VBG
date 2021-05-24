@@ -1,0 +1,12 @@
+//See js/functions.jsx
+[data-uk-grid]{
+
+  >*{
+    opacity:1;
+    @include transition(opacity 1s ease);
+  }
+
+  &.busy >*{
+    opacity:0 !important;
+  }
+}

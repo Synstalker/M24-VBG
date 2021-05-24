@@ -1,0 +1,3 @@
+<div class="uk-alert uk-alert-danger uk-text-center uk-margin-large-top">
+	<?php _e( 'Voting is unavailable at this moment', 'twentyfourdotcom' ); ?>...
+</div>

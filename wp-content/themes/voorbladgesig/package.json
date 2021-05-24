@@ -1,0 +1,25 @@
+{
+  "name": "voorbladgesig",
+  "version": "0.0.1",
+  "description": "``` npm install -g grunt-cli npm install grunt --save-dev ```",
+  "repository" : {
+    "type" : "git",
+    "url" : "git@bitbucket.org:24dotcom/banana-cream.git"
+  },
+  "author": {
+    "url": "http://24.com",
+    "email": "jared.rethman@24.com",
+    "name": "OpenSource 24.com"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "24.com",
+  "license": "ISC"
+}

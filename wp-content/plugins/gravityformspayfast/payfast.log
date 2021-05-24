@@ -1,0 +1,136 @@
+2020-04-15 14:27:13 : PayFast ITN call received
+2020-04-15 14:27:13 : Get posted data
+2020-04-15 14:27:13 : PayFast Data: Array
+(
+    [m_payment_id] => 18
+    [pf_payment_id] => 28628152
+    [payment_status] => COMPLETE
+    [item_name] => Voorbladgesig Betaal-18
+    [item_description] => 
+    [amount_gross] => 5.00
+    [amount_fee] => -2.51
+    [amount_net] => 2.49
+    [custom_str1] => PF_GRAVITYFORMS_1.9.*_1.4.0
+    [custom_str2] => 5e720bbd28240
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 9
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => 
+    [name_last] => 
+    [email_address] => shadane@live.co.za
+    [merchant_id] => 14153670
+    [signature] => e2f86286c598a8defc8bc3f30dd59e5e
+)
+
+2020-04-15 14:27:13 : Verify security signature
+2020-04-15 14:27:13 : Signature = valid
+2020-04-15 14:27:13 : PFString = m_payment_id=18&pf_payment_id=28628152&payment_status=COMPLETE&item_name=Voorbladgesig+Betaal-18&item_description=&amount_gross=5.00&amount_fee=-2.51&amount_net=2.49&custom_str1=PF_GRAVITYFORMS_1.9.%2A_1.4.0&custom_str2=5e720bbd28240&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=9&custom_int3=&custom_int4=&custom_int5=&name_first=&name_last=&email_address=shadane%40live.co.za&merchant_id=14153670
+2020-04-15 14:27:13 : Verify source IP
+2020-04-15 14:27:14 : Valid IPs:
+Array
+(
+    [0] => 41.74.179.210
+    [1] => 41.74.179.211
+    [2] => 41.74.179.200
+    [3] => 41.74.179.194
+    [4] => 41.74.179.201
+    [5] => 41.74.179.212
+    [6] => 41.74.179.196
+    [8] => 41.74.179.193
+    [9] => 41.74.179.195
+    [10] => 197.97.145.156
+    [11] => 41.74.179.217
+    [12] => 41.74.179.203
+    [13] => 41.74.179.204
+    [14] => 41.74.179.197
+    [16] => 41.74.179.218
+    [17] => 197.97.145.148
+    [19] => 197.97.145.145
+    [20] => 197.97.145.149
+    [21] => 197.97.145.150
+)
+
+2020-04-15 14:27:14 : Purchase:
+1
+2020-04-15 14:27:14 : Verify data received
+2020-04-15 14:27:14 : Host = www.payfast.co.za
+2020-04-15 14:27:14 : Params = m_payment_id=18&pf_payment_id=28628152&payment_status=COMPLETE&item_name=Voorbladgesig+Betaal-18&item_description=&amount_gross=5.00&amount_fee=-2.51&amount_net=2.49&custom_str1=PF_GRAVITYFORMS_1.9.%2A_1.4.0&custom_str2=5e720bbd28240&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=9&custom_int3=&custom_int4=&custom_int5=&name_first=&name_last=&email_address=shadane%40live.co.za&merchant_id=14153670
+2020-04-15 14:27:15 : Response:
+VALID
+2020-04-15 14:27:15 : Check status and update order
+2020-04-15 14:27:15 : - Complete
+2020-04-15 14:27:15 : sendadminmail
+2020-04-15 14:27:15 : sendusermail
+2020-04-16 10:22:52 : PayFast ITN call received
+2020-04-16 10:22:52 : Get posted data
+2020-04-16 10:22:52 : PayFast Data: Array
+(
+    [m_payment_id] => 22
+    [pf_payment_id] => 28657614
+    [payment_status] => COMPLETE
+    [item_name] => Benoem Iemand Betaal-22
+    [item_description] => 
+    [amount_gross] => 5.00
+    [amount_fee] => -2.51
+    [amount_net] => 2.49
+    [custom_str1] => PF_GRAVITYFORMS_1.9.*_1.4.0
+    [custom_str2] => 5e720bbd28240
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 10
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => 
+    [name_last] => 
+    [email_address] => louise@sharepointexperience.co.za
+    [merchant_id] => 14153670
+    [signature] => fd67e5c143287f8b07e95b902c4d2fa3
+)
+
+2020-04-16 10:22:52 : Verify security signature
+2020-04-16 10:22:52 : Signature = valid
+2020-04-16 10:22:52 : PFString = m_payment_id=22&pf_payment_id=28657614&payment_status=COMPLETE&item_name=Benoem+Iemand+Betaal-22&item_description=&amount_gross=5.00&amount_fee=-2.51&amount_net=2.49&custom_str1=PF_GRAVITYFORMS_1.9.%2A_1.4.0&custom_str2=5e720bbd28240&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=10&custom_int3=&custom_int4=&custom_int5=&name_first=&name_last=&email_address=louise%40sharepointexperience.co.za&merchant_id=14153670
+2020-04-16 10:22:52 : Verify source IP
+2020-04-16 10:22:53 : Valid IPs:
+Array
+(
+    [0] => 41.74.179.210
+    [1] => 41.74.179.211
+    [2] => 41.74.179.203
+    [3] => 41.74.179.200
+    [4] => 41.74.179.204
+    [6] => 41.74.179.201
+    [7] => 41.74.179.217
+    [8] => 41.74.179.195
+    [10] => 41.74.179.218
+    [11] => 197.97.145.156
+    [12] => 41.74.179.212
+    [13] => 41.74.179.194
+    [14] => 41.74.179.196
+    [15] => 41.74.179.197
+    [16] => 41.74.179.193
+    [18] => 197.97.145.150
+    [19] => 197.97.145.145
+    [20] => 197.97.145.148
+    [21] => 197.97.145.149
+)
+
+2020-04-16 10:22:53 : Purchase:
+1
+2020-04-16 10:22:53 : Verify data received
+2020-04-16 10:22:53 : Host = www.payfast.co.za
+2020-04-16 10:22:53 : Params = m_payment_id=22&pf_payment_id=28657614&payment_status=COMPLETE&item_name=Benoem+Iemand+Betaal-22&item_description=&amount_gross=5.00&amount_fee=-2.51&amount_net=2.49&custom_str1=PF_GRAVITYFORMS_1.9.%2A_1.4.0&custom_str2=5e720bbd28240&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=10&custom_int3=&custom_int4=&custom_int5=&name_first=&name_last=&email_address=louise%40sharepointexperience.co.za&merchant_id=14153670
+2020-04-16 10:22:54 : Response:
+VALID
+2020-04-16 10:22:54 : Check status and update order
+2020-04-16 10:22:54 : - Complete
+2020-04-16 10:22:54 : sendadminmail
+2020-04-16 10:22:54 : sendusermail

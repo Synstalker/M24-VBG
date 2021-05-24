@@ -1,0 +1,17 @@
+{
+    "name": "24dotcom/tf-languages",
+    "description": "Language translations, mainly for afrikaans.",
+    "type": "wordpress-plugin",
+    "homepage": "https://bitbucket.org/24dotcom/tf-languages/overview",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "24.Com Open Source Dev Team",
+            "email": "24.COMOpenSourceDevTeam@ds.naspers.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "composer/installers": "~1.0"
+    }
+}

@@ -1,0 +1,184 @@
+/* ADDED FROM CRAIG'S REPO */
+
+@mixin vendor_prefix($property, $value){
+  -webkit-#{$property}: #{$value};
+  -khtml-#{$property}: #{$value};
+  -moz-#{$property}: #{$value};
+  -ms-#{$property}: #{$value};
+  -o-#{$property}: #{$value};
+  #{$property}: #{$value};
+}
+
+@mixin box-shadow($box-shadow){
+  @include vendor_prefix( box-shadow, $box-shadow );
+}
+
+@mixin border-radius($radius){
+  @include vendor_prefix(border-radius,$radius);
+}
+
+@mixin transition($transition){
+  @include vendor_prefix(transition,$transition);
+}
+
+/* ref: http://codepen.io/ebellempire/pen/rnvEK*/
+@mixin blur($blur){
+  @include vendor_prefix(blur,$blur);
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=selector-replace($blur,'px',''));
+}
+
+@mixin animation($animation) {
+  @include vendor_prefix(animation,$animation);
+}
+
+@mixin text-overflow($text-overflow){
+  @include vendor_prefix(text-overflow,$text-overflow);
+}
+
+@mixin user-select($user-select){
+  @include vendor_prefix(user-select,$user-select);
+}
+
+@mixin hyphens($hyphens){
+  @include vendor_prefix(hyphens,$hyphens);
+}
+
+/*ref: https://css-tricks.com/almanac/properties/h/hyphenate/*/
+@mixin word-break($word-break){
+  -ms-word-break: $word-break;
+  word-break: $word-break;
+  @if($word-break == break-all){
+    word-break: break-word;
+    @include hyphens(auto);
+  }
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=#{$opacity-ie}); //IE8
+}
+
+/* END ADDED CRAIG'S REPO */
+
+@mixin hook-form-stacked-label{
+  font-size:$base-h6-font-size;
+  line-height:$base-h6-line-height;
+}
+
+
+/**
+* Comments
+*/
+@mixin hook-comment{
+  background:$comment-background;
+  margin-bottom: $utility-margin;
+  padding:$comment-padding;
+  @include box-shadow( $comment-avatar-box-shadow );
+  @include border-radius( $utility-border-rounded );
+}
+
+@mixin hook-comment-body{
+  margin-top: $utility-margin-small;
+}
+
+@mixin hook-comment-avatar{
+  @include border-radius($comment-avatar-border-radius);
+  background-position: $comment-avatar-background-position;
+  background-size: $comment-avatar-background-size;
+  width:$comment-avatar-width;
+  height:$comment-avatar-height;
+}
+
+
+@mixin hook-comment-meta{
+  text-align:right;
+
+  @media (max-width: $breakpoint-small-max ) {
+    &{
+      text-align:left;
+    }
+  }
+};
+
+
+@mixin hook-form-advanced{
+  margin-right: $utility-margin;
+}
+
+
+@mixin hook-form-advanced-checked{
+  &:checked{
+    border-color:$brand-primary-color;
+  }
+}
+
+
+@mixin hook-placeholder{
+  border-style:$tf-placeholder-border-style;
+  font-size:$tf-placeholder-font-size;
+  min-height:$tf-placeholder-min-height;
+}
+
+@mixin hook-alert{
+  border: 1px solid $tf-alert-border-color;
+  border-left: $tf-alert-border-left-width solid $tf-alert-border-left-color;
+}
+
+@mixin hook-alert-success{
+  border-left-color:$tf-alert-success-border-left-color;
+}
+
+@mixin hook-alert-warning{
+  border-left-color:$tf-alert-warning-border-left-color;
+}
+
+@mixin hook-alert-danger{
+  border-left-color:$tf-alert-danger-border-left-color;
+}
+
+@mixin hook-nav-header{
+  .uk-navbar-nav & {
+    > a{
+      font-weight: $nav-header-font-weight;
+    }
+
+    &.uk-navbar-flip{
+      float:right;
+    }
+  }
+}
+
+
+@mixin hook-grid-misc{
+
+  .uk-grid-width-1-7 > * { width: 14%; }
+
+  /* Phone landscape and bigger */
+  @media (min-width: $breakpoint-small) {
+    .uk-grid-width-small-1-7 > * { width: 14%; }
+  }
+
+  /* Tablet and bigger */
+  @media (min-width: $breakpoint-medium) {
+    .uk-grid-width-medium-1-7 > * { width: 14%; }
+  }
+
+  /* Desktop and bigger */
+  @media (min-width: $breakpoint-large) {
+    .uk-grid-width-large-1-7 > * { width: 14%; }
+  }
+
+  /* Large screen and bigger */
+  @media (min-width: $breakpoint-xlarge) {
+    .uk-grid-width-xlarge-1-7 > * { width: 14%; }
+  }
+}
+
+@mixin hook-offcanvas-bar(){
+  padding: $grid-gutter-horizontal;
+}
+
+@mixin hook-nav-offcanvas(){
+  border-bottom: $tf-nav-offcanvas-menu-item-border;
+}

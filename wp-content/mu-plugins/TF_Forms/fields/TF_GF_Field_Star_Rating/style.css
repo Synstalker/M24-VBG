@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.star_rating_container {
+  display: inline-block;
+  position: relative;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  counter-reset: star-rating;
+  font-size: 0;
+}
+.star_rating_container:hover .star_rating_label::before {
+  content: '☆';
+}
+.star_rating_container:hover .star_rating_label:hover::before, .star_rating_container:hover .star_rating_label:hover ~ .star_rating_label::before {
+  content: '★';
+}
+.star_rating_container .star_rating_label {
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0 15px 0 0;
+  width: .9em;
+  direction: ltr;
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 40px;
+  white-space: nowrap;
+}
+.star_rating_container .star_rating_label::before {
+  content: '☆';
+  vertical-align: text-bottom;
+  font-size: 40px;
+  line-height: 40px;
+}
+.star_rating_container .star_rating_label:hover, .star_rating_container .star_rating_label:hover ~ .star_rating_label,
+.star_rating_container .star_rating_label .star_rating_input:checked ~ .star_rating_label {
+  color: orange;
+}
+.star_rating_container .star_rating_input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.star_rating_container .star_rating_input:checked ~ .star_rating_label {
+  counter-increment: star-rating;
+}
+.star_rating_container .star_rating_input:checked ~ .star_rating_label::before {
+  content: '★';
+}
+.star_rating_container .star_rating_input:checked + .star_rating_label:before {
+  color: #ffa500;
+}

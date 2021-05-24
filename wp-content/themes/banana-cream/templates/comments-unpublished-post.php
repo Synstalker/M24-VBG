@@ -1,0 +1,1 @@
+<div class="uk-alert uk-alert-danger"><?php _e( 'Comments only available for published posts', 'twentyfourdotcom' ); ?>.</div>
